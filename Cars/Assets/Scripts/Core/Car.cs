@@ -36,9 +36,9 @@ public class Car : MonoBehaviour
     {
         _infoText.text = 
             $"{Info.Mark} {Info.Model}\n" +
-            $"{Info.Description}" +
-            $"Максимальная скорость: {Info.MaxSpeed} км/ч" +
-            $"Разгон до 100 км/ч: {Info.TimeTo100kmInHour} cек.";
+            $"{Info.Description}\n" +
+            $"Максимальная скорость: {Info.MaxSpeed} км/ч\n" +
+            $"Разгон до 100 км/ч: {Info.TimeTo100kmInHour} cек.\n";
     }
 }
 
